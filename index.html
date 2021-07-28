@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css"></link>
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3"> Weather Dashboard</h1>
+    </header>
+    
+
+    <div class="container">
+        <div class="city">
+            <h2 class="search">Search For Your Destination</h2>
+            <input id="search-city" placeholder="New York City">
+            <button class="searchBtn">Search</button>
+        </div>
+
+
+        <div class="container2">
+            <div class="weather-current">
+                <h2 id="currentCity"></h2>
+                <p id="currentWind">Current Wind</p>
+                <p id="currentHumidity">Current Humidity</p>
+                <p id="currentTemperature">Current Temperature</p>
+                <p id="currentUVIndex">Current UV Index</p>
+            </div>
+
+            <h2> 5 Day Forecast</h2>
+            <div class="forecast">
+                <div id="day-1">
+                    <h3 id="date-1"></h3>
+                    <p id="temperature-1">Temperature</p>
+                    <p id="wind-1">Wind</p>
+                    <p id="humidity-1">Humidity</p>
+                </div>
+
+                <div id="day-2">
+                    <h3 id="date-2"></h3>
+                    <p id="temperature-2">Temperature</p>
+                    <p id="wind-2">Wind</p>
+                    <p id="humidity-2">Humidity</p>
+                </div>
+
+                <div id="day-3">
+                    <h3 id="date-3"></h3>
+                    <p id="temperature-3">Temperature</p>
+                    <p id="wind-3">Wind</p>
+                    <p id="humidity-3">Humidity</p>
+                </div>
+
+                <div id="day-4">
+                    <h3 id="date-4"></h3>
+                    <p id="temperature-4">Temperature</p>
+                    <p id="wind-4">Wind</p>
+                    <p id="humidity-4">Humidity</p>
+                </div>
+
+                <div id="day-5">
+                    <h3 id="date-5"></h3>
+                    <p id="temperature-5">Temperature</p>
+                    <p id="wind-5">Wind</p>
+                    <p id="humidity-5">Humidity</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/script.js"></script>
+
+
+</body>
+
+</html>
